@@ -1,0 +1,71 @@
+a:active {
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+.medsos{
+	padding: 5px 0;
+	background-color:#00FFFF;
+}
+.medsos	ul li {
+	display: inline-block;
+	color: white;
+	margin-right: 10px;
+}
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+.container:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+header{
+}
+header h1{
+	float: left;
+	padding: 15px 0px;
+	color: #37E6F7;
+}
+header ul{
+	float: right;
+}
+header ul li{
+	display: inline-block;
+}
+header ul li a{
+	padding: 25px 20px;
+	display: inline-block;
+}
+header ul li a:hover{
+	background-color: #37E6F7;
+	color: #fff;
+}
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+	background-color:#00FFFF;
+    width: 250px;
+    display: inline-block;
+}
+
+.product img {
+    max-width: 100%;
+}
+
+.product h2 {
+    font-size: 18px;
+}
+
+.product button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
